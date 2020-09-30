@@ -5,11 +5,7 @@
  */
 class User
 {
-    /**
-     * Undocumented variable
-     *
-     * @var [type]
-     */
+
     private $firstName;
     public $lastName;
     public $email;
