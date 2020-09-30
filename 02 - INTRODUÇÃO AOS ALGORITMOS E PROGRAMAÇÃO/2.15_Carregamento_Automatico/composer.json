@@ -1,13 +1,13 @@
 {
-    "name": "iuryprof/ifto",
+    "name": "sartori/sartori-aspire-5741",
     "description": "Curso de Programador WEB",
     "minimum-stability": "stable",
     "authors": [
         {
-            "name": "Iury Gomes de Oliveira",
-            "email": "iury.oliveira@ifto.edu.br",
-            "homepage": "https://github.com/iurygdeoliveira",
-            "role": "Developer"
+            "name": "Thiago Sartori",
+            "email": "thiagosartori@live.com",
+            "homepage": "https://github.com/tsartori",
+            "role": "Student"
         }
     ],
     "config": {
