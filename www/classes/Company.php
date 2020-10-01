@@ -69,6 +69,7 @@ class Company
     }
     public function addTeamMember($job, $firstName, $lastName)
     {
-        $this->team[] = new User(@job, @firstName, @lastName);
+        $user = new User($job, $firstName, $lastName);
+        $this->team[] = $user;
     }
 }
