@@ -23,4 +23,7 @@ var_dump($company);
 $address = new Address("Av. Paraguaia", 339, "Proximo a Universidade federal do tocantins");
 $company->boot("IFTO", $address);
 
+//$company->addTeamMember("Develop", "Thiago", "Sartori");
+
+
 var_dump($company);
