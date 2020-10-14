@@ -1,105 +1,398 @@
-<!DOCTYPE html> <!-- DOCUMENTO HTML 5-->
+<!DOCTYPE html>
 <html lang='pt-br'>
-<!-- INFORMAR A LÍNGUA QUE SERÁ UTILIZADA NO SITE -->
 
 <head>
-    <!-- CONJUNTO DE CARACTERES -->
     <meta charset='UTF-8'>
-
-    <!-- VIEWPORT -->
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-
-    <!-- ROBOTS -->
     <meta name='robots' content='index, follow'>
-
-    <!-- SHORTCUT -->
-    <link rel='shortcut icon' href='http://www.ifto.edu.br/++theme++azul/img/favicon.ico'>
-
-    <!-- CSS -->
-    <link rel='stylesheet' href=''>
-
-    <!-- TÍTULO DA PÁGINA -->
-    <title>APRENDENDO HTML</title>
+    <link rel='shortcut icon' href='assets/img/ifto.svg'>
+    <link rel='stylesheet' href='assets/css/icons/fonticon.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='assets/css/boot.css'>
+    <link rel='stylesheet' href='assets/css/style.css'>
+    <title>Site do Curso</title>
 </head>
 
-<!-- CONTEÚDO EXIBIDO PARA O USUÁRIO -->
-
 <body>
-    <h1> Os melhores e mais completos cursos de educação profissional do Brasil </h1>
-    <!-- <h2> h2 </h2>
-    <h3> h3 </h3>
-    <h4> h4 </h4>
-    <h5> h5 </h5> -->
-    <p>
-        <!-- MARCAÇÃO DE PARÁGRAFOS -->
-        A história da Rede Federal de Educação Profissional, Científica e Tecnológica começou em 1909, quando o então
-        Presidente da República, Nilo Peçanha, criou 19 escolas de Aprendizes e Artífices que, mais tarde, deram origem
-        aos
-        Centros Federais de Educação Profissional e Tecnológica (Cefets).
-    </p>
-    <p> Tida no seu início como instrumento de política voltado para as 'classes desprovidas', a Rede Federal se
-        configura
-        hoje como importante estrutura para que todas as pessoas tenham efetivo acesso às conquistas científicas e
-        tecnológicas.
-    </p>
+    <!-- CABEÇALHO -->
+    <header class="main_header">
+        <div class="main_header_content">
+            <a href="#" class="logo">
+                <img src="assets/img/logo.png" alt="logotipo do curso" title="logotipo do curso">
+            </a>
 
-    <p>Foi na década de 1980 que um novo cenário econômico e produtivo se estabeleceu, com o desenvolvimento de novas
-        tecnologias, agregadas à produção e à prestação de serviços. Para atender a essa demanda, as instituições de
-        educação profissional vêm buscando diversificar programas e cursos para elevar os níveis da qualidade da oferta.
-    </p>
+            <nav class="main_header_content_menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#escola">A Escola</a></li>
+                    <li><a href="#contatos">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- FIM CABEÇALHO -->
 
-    <p>Cobrindo todo o território nacional, a Rede Federal presta um serviço à nação, ao dar continuidade à sua missão
-        de
-        qualificar profissionais para os diversos setores da economia brasileira, realizar pesquisa e desenvolver novos
-        processos, produtos e serviços em colaboração com o setor produtivo.
-    </p>
+    <main>
 
-    <p>Em 29 de dezembro de 2008 , 31 centros federais de educação tecnológica (Cefets), 75 unidades descentralizadas
-        de ensino (Uneds), 39 escolas agrotécnicas, 7 escolas técnicas federais e 8 escolas vinculadas a universidades
-        deixaram de existir para formar os Institutos Federais de Educação, Ciência e Tecnologia.
-    </p>
+        <!-- CHAMADA PRINCIPAL -->
+        <div class="main_cta">
+            <article class="main_cta_content">
+                <div class=main_cta_content_spacer>
+                    <header>
+                        <h1>Aqui você aprende o essencial para trabalhar como webmaster fullstack
+                        </h1>
+                    </header>
+                    <p>
+                        Estude o HTML 5 e o CSS 3 na disciplina de webdesign
+                    </p>
+                    <p>
+                        <a href="#" class="btn"> Saiba mais</a>
+                    </p>
+                </div>
+            </article>
+        </div>
+        <!-- FIM CHAMADA PRINCIPAL -->
 
-    <a href="http://www.ifto.edu.br/araguaina" target="blank" title="Campus Araguaina" alt="Campus Araguaina">
-        Campus Araguaina
-    </a>
+        <!-- ARTIGOS -->
+        <section class="main_blog">
+            <header class="main_blog_header">
+                <h1 class="icon-blog">
+                    Nossos últimas artigos
+                </h1>
+                <p>
+                    Aqui você encontra os artigos necessários para auxiliar na sua caminhadas nas web
+                </p>
+            </header>
 
-    <h2> Lista de Cursos no IFTO - Campus Araguaína </h2>
+            <?php for ($i = 0; $i < 12; $i++) : ?>
+            <article>
+                <a href="#">
+                    <img src="assets/img/rede_federal2.jpg" alt="Rede Federal" title="Rede Federal">
+                </a>
+                <p>
+                    <a href="" class="category"> Categoria </a>
+                </p>
+                <h2>
+                    <a href="#" class="title">
+                        Omnis autem ducimus consequatur consequuntur quia cumque fugiat eum pariatur. Dolorum eum qui
+                        dolores non. Repudiandae tempora dolor occaecati quia.
+                    </a>
+                </h2>
+            </article>
+            <?php endfor; ?>
+        </section>
+        <!-- FIM ARTIGOS  -->
 
-    <ul>
-        <li>Operador de Computador</li>
-        <li>Técnico em Biotecnologia</li>
-        <li>Técnico em Informática</li>
-        <li>Técnico em Análises Clínicas</li>
-        <li>Técnico em Enfermagem</li>
-        <li>Técnico em Informática para Internet</li>
-        <li>Tecnólogo em Análise e Desenvolvimento de Sistemas</li>
-        <li>Gestão em Produção Industrial</li>
-        <li>Especialização Lato Sensu em Educação Ambientam e Desenvolvimento Sustentável</li>
-    </ul>
+        <!-- NEWS -->
+        <article>
+            <header>
+                <h1>Quer receber todas as novidades em seu e-mail ?</h1>
+                <p>
+                    Informe seu nome e e-mail no campo ao lado e clique em OK !
+                </p>
+            </header>
 
-    <!-- <ol reversed> -->
-    <!-- <ol start='5'> -->
-    <!-- <ol type='I'> -->
-    <!-- <ol type='A'> -->
-    <ol type='a'>
-        <li>Operador de Computador</li>
-        <li>Técnico em Biotecnologia</li>
-        <li>Técnico em Informática</li>
+            <form action="news.php" method="post">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <button type="submit">OK !</button>
+            </form>
+        </article>
+        <!-- FIM NEWS -->
 
-        <ul>
-            <li>Programador WEB</li>
-        </ul>
+        <!-- SOBRE O CURSO -->
+        <section>
+            <header>
+                <img src='assets/img/logo.png' alt='' title=''>
+                <h1>Curso de Programação WEB</h1>
+                <p>
+                    Aprenda a trabalhar com HTML5 e CSS3 para desenvolver seus projetos e entregar págians que estejam
+                    dentro dos padrões
+                    web seguindo boas práticas de programação
+                </p>
+            </header>
 
-        <li>Técnico em Análises Clínicas</li>
-        <li>Técnico em Enfermagem</li>
-        <li>Técnico em Informática para Internet</li>
-        <li>Tecnólogo em Análise e Desenvolvimento de Sistemas</li>
-        <li>Gestão em Produção Industrial</li>
-        <li>Especialização Lato Sensu em Educação Ambientam e Desenvolvimento Sustentável</li>
-    </ol>
+            <?php
+            $vantagens =
+                [
+                    "Curso 100% Online",
+                    "Suporte Especializado",
+                    "As aulas são divídidas em módulos",
+                    "Certificado reconhecido em todo o território nacional",
+                    "Veja aqui alguns comentários dos nossos alunos"
+                ];
+            $descricao =
+                [
+                    "Todas as aulas são gravadas e focadas na prática",
+                    "Este curso possui suporte diretamente com um profissional da nossa equipe oficial",
+                    "A modularização que você precisa para compreender de maneira mais objetiva",
+                    "Ao concluir o curso você receberá um certificado federal com reconhecimento em todos o território nacional",
+                    "Veja o que estão falando sobre o curso",
+                ];
+            ?>
 
+            <?php for ($i = 0; $i < 4; $i++) : ?>
 
-    <!-- SCRIPT -->
+            <article>
+                <header>
+                    <h2><?= $vantagens[$i] ?></h2>
+                </header>
+                <p>
+                    <?= $descricao[$i] ?>
+                </p>
+            </article>
+
+            <?php endfor; ?>
+
+            <section>
+                <header>
+                    <h2>Veja o questão falando sobre o curso</h2>
+                </header>
+
+                <article>
+                    <header>
+                        <h3> Aline F. de Araujo (Ponto Positivo)</h3>
+                        <p>06/10/2020</p>
+                    </header>
+                    <p>
+                        O CURSO VISA CAPACITAÇÃO PARA ATUAÇÃO EM UMA ÁREA COM CRESCENTE REQUISIÇÃO PELO MERCADO DE
+                        TRABALHO
+                    </p>
+                </article>
+                <article>
+                    <header>
+                        <h3> Aline F. de Araujo (Ponto Negativo)</h3>
+                        <p>06/10/2020</p>
+                    </header>
+                    <p>
+                        FALTA UM MATERIAL DIDÁTICO COM CONCEITOS BÁSICOS DO CURSO E QUE DETALHE CADA COMANDO
+                        UTILIZADO,
+                        ESPECIFICANDO A FINALIDADE DA UTILIZAÇÃO
+                    </p>
+                </article>
+                <article>
+                    <header>
+                        <h3> André Martins (Ponto Positivo)</h3>
+                        <p>06/10/2020</p>
+                    </header>
+                    <p>
+                        FOCO MAIOR NA PRÁTICA E EXIGÊNCIAS DO MERCADO
+                    </p>
+                </article>
+                <article>
+                    <header>
+                        <h3> André Martins (Ponto Negativo)</h3>
+                        <p>06/10/2020</p>
+                    </header>
+                    <p>
+                        QUEM NÃO TEM NENHUM CONHECIMENTO DE "GIT" ENCONTRARÁ
+                        DIFICULDADES NO INÍCIO
+                    </p>
+                </article>
+                <article>
+                    <header>
+                        <h3> Felipe S. da Silva (Ponto Positivo)</h3>
+                        <p>06/10/2020</p>
+                    </header>
+                    <p>
+                        É GRATUITO, E TAMBÉM A DISTÂNCIA
+                    </p>
+                </article>
+                <article>
+                    <header>
+                        <h3> Felipe S. da Silva (Ponto Negativo)</h3>
+                        <p>06/10/2020</p>
+                    </header>
+                    <p>
+                        O PRAZO DO CURSO É MUITO CURTO
+                    </p>
+                </article>
+
+            </section>
+        </section>
+        <!-- FIM SOBRE O CURSO -->
+
+        <!-- A ESCOLA -->
+        <section>
+            <header>
+                <h1>Bem vindo ao Campus Araguaína - IFTO</h1>
+                <p>Uma escola de educação técnica profissional</p>
+            </header>
+
+            <article>
+                <header>
+                    <p>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Youtube</a>
+                    </p>
+                    <h2>
+                        Tudo o que você precisa para iniciar sua carreira Webmaster Full Stack
+                    </h2>
+                </header>
+
+                <p>
+                    Desde 2010 o Campus Araguaina - IFTO vem criando os melhores cursos na área de tecnologia em sua
+                    região, entregamos ao aluno conhecimento prático e testado, sem enrolação
+                </p>
+                <p>
+                    Que tal estudar, conosco ?
+                </p>
+            </article>
+
+            <section>
+                <header>
+                    <h2> Confira nossos cursos</h2>
+                </header>
+                <?php
+                $cursos =
+                    [
+                        "Operador de Computador",
+                        "Técnico em Biotecnologia",
+                        "Técnico em Informática",
+                        "Técnico em Análises Clínicas",
+                        "Técnico em Enfermagem",
+                        "Análise e Desenvolvimento de Sistemas",
+                        "Gestão de Produção Industrial",
+                        "Formação Docente em Educação Ambiente e Desenvolvimento Sustentável",
+                    ];
+                ?>
+
+                <?php foreach ($cursos as $key => $value) : ?>
+
+                <article>
+                    <header>
+                        <h3><?= $value ?></h3>
+                    </header>
+                </article>
+
+                <?php endforeach; ?>
+            </section>
+            <img src='assets/img/ifto.svg' alt='IFTO' title='IFTO'>
+            <article>
+                <header>
+                    <h2>Nos encontre</h2>
+                </header>
+                <p>
+                    Av. Amazonas, esquina com a Av. Paraguai, Quadra 56, Lote 01, Setor Cimba
+                </p>
+            </article>
+        </section>
+        <!-- FIM A ESCOLA  -->
+
+        <!-- TUTOR -->
+        <section>
+            <header>
+                <h1>Conheça Iury Gomes, seu tutor nesse Curso</h1>
+                <p>Eu vou te ajudar a criar sua webpage em HTML 5 e css3</p>
+            </header>
+            <img src='assets/img/foto.jpeg' alt='Iury Gomes' title='Iury Gomes'>
+            <article>
+                <header>
+                    <h2>
+                        Formado em Ciência da Computação e Apaixonado por WEB
+                    </h2>
+                </header>
+                <p>
+                    Como muitos, comecei na programação por curiosidade! Com o tempo, o amor pela programação foi
+                    crescendo a ponto se tornar uma profissão e me especializar na área. Hoje, com a bagagem que tenho,
+                    compartilho meu conhecimento com todos os alunos do Campus Araguaína - IFTO
+                </p>
+            </article>
+            <section>
+                <header>
+                    <h2>
+                        Me siga nas redes sociais
+                    </h2>
+                </header>
+
+                <article>
+                    <header>
+                        <h3><a href="#">Meu Youtube</a></h3>
+                    </header>
+                </article>
+                <article>
+                    <header>
+                        <h3><a href="#">Meu Github</a></h3>
+                    </header>
+                </article>
+                <article>
+                    <header>
+                        <h3><a href="#">Meu Linkedin</a></h3>
+                    </header>
+                </article>
+                <article>
+                    <header>
+                        <h3><a href="#">Meu Twitter</a></h3>
+                    </header>
+                </article>
+            </section>
+        </section>
+        <!-- FIM TUTOR -->
+    </main>
+
+    <section>
+        <header>
+            <h1>
+                Quer receber nosso conteúdo exclusivo ? Assine nossa lista VIP :)
+            </h1>
+        </header>
+
+        <article>
+            <header>
+                <h2><a href="#" class="btn">Entrar para a Lista VIP</a></h2>
+            </header>
+        </article>
+    </section>
+
+    <section>
+        <header>
+            <h1>Quer Saber mais ?</h1>
+        </header>
+        <section>
+            <header>
+                <h2>Nossas Páginas</h2>
+            </header>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">A Escola</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <header>
+                <h2>Links Úteis</h2>
+            </header>
+
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Aviso Legal</a></li>
+                <li><a href="#">Termo de uso</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <header>
+                <h2>Sobre o Projeto</h2>
+            </header>
+
+            <p>
+                Aprenda a trabalhar com HTML5 e CSS3 para desenvolver seus projetos e entregar páginas que estejam
+                dentro dos padrões da WEB seguindo as boas práticas !
+            </p>
+        </section>
+    </section>
+
+    <footer>
+        <p>
+            &copy; Copyright 2020 - <?= date('Y'); ?>, Campus Araguaina - IFTO
+        </p>
+    </footer>
+
     <script> </script>
 </body>
 
