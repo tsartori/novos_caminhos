@@ -3,19 +3,20 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Iury Gomes de Oliveira</title>
+    <title>Thiago Sartori</title>
 
     <!-- Meta Data -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="author" content="Iury Gomes de Oliveira" />
-    <meta name="description" content="Portifólio de trabalhos realizados e formação de Iury Gomes de Oliveira" />
+    <meta name="author" content="Thiago Sartori" />
+    <meta name="description" content="Portifólio de trabalhos realizados e formação de Thiago Sartori" />
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/styles/style-dark.css" />
 
-
+    <!-- icone -->
+    <link rel="shortcut icon" href="assets/img/job_icon.png" />
 </head>
 
 <body class="bg-triangles">
@@ -37,31 +38,36 @@
             <header class="header box">
                 <div class="header__left">
                     <div class="header__photo">
-                        <img class="header__photo-img" src="assets/img/profile.jpeg" alt="Iury Gomes de Oliveira">
+                        <img class="header__photo-img" src="assets/img/profile.jpg" alt="Thiago Sartori">
                     </div>
                     <div class="header__base-info">
-                        <h4 class="title titl--h4">Iury Gomes de Oliveira</h4>
+                        <h4 class="title titl--h4">Thiago Sartori</h4>
                         <div class="status">Desenvolvedor WEB</div>
                         <ul class="header__social">
                             <li>
-                                <a href="https://www.linkedin.com/in/iurygdeoliveira/">
+                                <a href="https://www.linkedin.com/in/thiago-sartori-1820b213a/">
                                     <i class="font-icon icon-linkedin"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/iurygdeoliveira">
+                                <a href="https://github.com/tsartori">
                                     <i class="font-icon icon-github"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UCTM1Idirf0ALOdEdq31qkjg?view_as=subscriber">
+                                <a href="https://www.youtube.com/user/tsartori10">
                                     <i class="font-icon icon-youtube"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/IuryProf">
-                                    <i class="font-icon icon-twitter"></i>
+                                <a href="https://www.facebook.com/sartori10/">
+                                    <i class="font-icon icon-facebook"></i>
                                 </a>
+                            </li>
+                            li>
+                            <a href="https://www.instagram.com/tsartori10/">
+                                <i class="font-icon icon-instagram"></i>
+                            </a>
                             </li>
 
                         </ul>
@@ -73,11 +79,11 @@
                             <span class="overhead">
                                 Email
                             </span>
-                            email.comercial@contato.com.br
+                            thiagosartori@live.com
                         </li>
                         <li>
                             <span class="overhead">Telefone</span><a
-                                href="https://api.whatsapp.com/send?phone=55xxxxxxxxxxx">+55 (xx) xxxxx-xxxx </a>
+                                href="https://api.whatsapp.com/send?phone=553235512424">+55 (32) 3551-2424 </a>
                         </li>
                     </ul>
                     <ul class="header__contact">
@@ -86,7 +92,7 @@
                             <span class="overhead">
                                 Endereço
                             </span>
-                            Endereço Comercial - UF
+                            Visc. do Rio Branco / MG
                         </li>
                     </ul>
                 </div>
@@ -169,7 +175,7 @@
                     </div>
 
                     <!-- Footer -->
-                    <footer class="footer">© Iury Gomes de Oliveira</footer>
+                    <footer class="footer">© Thiago Sartori</footer>
                 </div>
             </div>
         </div>
